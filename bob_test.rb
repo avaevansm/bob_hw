@@ -1,9 +1,9 @@
 require 'minitest/autorun'
-require_relative 'bob'
+require_relative 'robert'
 
 class BobTest < Minitest::Test
   def bob
-    ::Bob.new
+    ::Robert.new
   end
 
   def feedback(text)
